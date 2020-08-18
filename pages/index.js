@@ -4,7 +4,7 @@ export  default function Homepage(){
     return (
         <div className={styles.root}>
             <Grid container className={styles.flexcont} style={{backgroundColor:"white", borderRadius:12}}>
-                <Grid container item xs={7} className={styles.flexcont} spacing={2} xs={12}>
+                <Grid container item lg={7} className={styles.flexcont} spacing={2} xs={12}>
                     <Grid item xs={12} className={styles.main}>
                         <Typography variant="h4"><strong>Year 6 Maths Programme</strong></Typography>
                         <Typography variant="h5">Consolidating KS2</Typography>
@@ -37,7 +37,7 @@ export  default function Homepage(){
                         </Grid>
                     </Grid>
                 </Grid>
-                <Grid container item className={styles.flexcont} xs={5} xs={12}>
+                <Grid container item className={styles.flexcont} lg={5} xs={12}>
                     <Grid item alignItems="center">
                         <ButtonBase >
                             <img  alt="complex" src="/images/1.jpg" className={styles.img}/>
