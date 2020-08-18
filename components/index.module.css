@@ -1,0 +1,39 @@
+.root {
+    background-color:#ffcccc;
+    padding:40px;
+    font-weight: 800;
+    margin:0;
+    width:fit-content;
+    height: fit-content;
+}
+.flexcont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 10px;
+}
+.paper {
+    display: flex;
+    height: 40px;
+    width: 170px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffcccc;
+    border-radius: 5px;
+    font-size: smaller;
+    font-weight: 900;
+}
+.img {
+    height: 500px;
+    width: 500px;
+    border-radius: 30px;
+
+}
+.main {
+    padding-left: 80%;
+}
+.para {
+    font-weight: 400;
+    font-size: 120%;
+}
